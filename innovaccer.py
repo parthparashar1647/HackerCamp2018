@@ -10,7 +10,6 @@ df['ID'] = range(len(df.index))
 Train = df.to_dict('ID')
 print(Train)
 
-settings_file = 'csv_example_learned_settings'
 training_file = 'csv_example_training.json'
 
     # ## Training
